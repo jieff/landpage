@@ -1,0 +1,31 @@
+.header{
+  position: relative;
+  display:inline-block;
+}
+.header img{
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.header text{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  
+  
+}
+
+.header youtube{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding: 10px;
+}
